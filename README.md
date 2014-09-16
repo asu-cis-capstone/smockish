@@ -5,14 +5,14 @@ The Smockish team will be creating an e-commerce site for artists to sell direct
 
 Name|Github Account
 -------|--------
-Francis|FrancisOgertschnig
-Twayne|twayne927573
-Jennette|jgtz2014
-Abby|Abbyhg
-Nick|Ngasser
-Michael|Mjvaugh2
-Josh|jjgalvin
-Julian|JCDJulian
+Francis Ogertschnig|FrancisOgertschnig
+Trong-An (Twayne) Do|twayne927573
+Jennette Gutierrez|jgtz2014
+Abby Huang|Abbyhg
+Nick Gasser|Ngasser
+Micheal Vaugh|Mjvaugh2
+Joshua Galvin|jjgalvin
+Julian DeOcampo|JCDJulian
 
 
 Initial to do list provided by client
