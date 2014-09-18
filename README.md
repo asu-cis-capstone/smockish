@@ -1,51 +1,28 @@
-###Smockish Changes
-This file contains change information of the current and previous release of Smockish.
+###Smockish Overview
 
-v0.1.4
--Fixed emailform alignment issues.
--Search bar event added to reset value once focus is lost.
--Modified site/slideshow width and style to accommodate lower resolution screens.
--Search Bar loose functionality added.
--removed colorbox integration with image gallery due to iframe error.
--Validation messages added.
+The Smockish team will be creating an e-commerce site for artists to sell direct to collectors cutting out galleries and their hefty commissions fees. Initially the site will have a landing page to collect user information for marketing and investor purposes. The site will then open to a robust marketplace with long term plans to have a social media aspect for artists to build a loyal following among their fans.
 
-v0.1.3
--Code validation fix, clean up and tidying.
--Integrate colorbox functionality with image gallery.
--Full image gallery functionality added.
--Image gallery added. 
 
-v0.1.2
--Empty page for upcoming documentation added.
--Sign-in, Registration, and Forgot Password link functionality added.
--Full picture, inline and iframe colorbox functionality added.
+Name|Github Account
+-------|--------
+Francis Ogertschnig|FrancisOgertschnig
+Trong-An (Twayne) Do|twayne927573
+Jennette Gutierrez|jgtz2014
+Abby Huang|Abbyhg
+Nick Gasser|Ngasser
+Micheal Vaugh|Mjvaugh2
+Joshua Galvin|jjgalvin
+Julian DeOcampo|JCDJulian
 
-v0.1.1
--Partial colorbox functionality added.
--Sign-in, Registration, and Forgot Password form elements and validation added.
--Sign-in, Registration, and Forgot Password style added.
--Sign-in, Registration, and Forgot Password added.
 
-v0.1.0
--Fixed html validation and code tidying.
--Auto-centering in browser functionality added.
--Link functionality added.
--Partial email functionality added. (Server-side only)
+Initial to do list provided by client
 
-v0.0.3
--Copyright added.
--Text placeholder added to search bar and email.
--Html and form input validation added.
+Priority|As a/an|I want to|so that
+-----|-----|-----|-----
+1|General Site Viewer|View splash screen|I can see a succinct blurb of what Smockish is all about.
+1|Unauthorized User|Sign up for the email registry|I can be updated on Smockish news and launch.
+2|Unauthorized User|Create an account|I can become an authorized user and gain access to site functionality.
+3|Authorized User|Create a listing|I can generate traffic to/sell my artwork.
+4|General Site Viewer|Be shown a site directory|I can navigate the site and peruse art based on style/medium.
+5|Potential Art Buyer/Seller|Be able to pay/receive payment online|I can safely complete a Smockish transaction.
 
-v0.0.2
--Html element style added.
-
-v0.0.1
--Nested elements to fit mock-up layout.
--Mock-up pictures and text added.
-
-v0.0.0
--Forms, Textboxes, and Buttons added.
--Tables added to form the desire mock-up structure.
--Generic title, image placeholder, and text added.
--Basic html structure added.
