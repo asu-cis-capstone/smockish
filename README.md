@@ -1,4 +1,7 @@
-###Smockish Overview
+Smockish 
+===
+
+###Overview
 
 The Smockish team will be creating an e-commerce site for artists to sell direct to collectors cutting out galleries and their hefty commissions fees. Initially the site will have a landing page to collect user information for marketing and investor purposes. The site will then open to a robust marketplace with long term plans to have a social media aspect for artists to build a loyal following among their fans.
 
