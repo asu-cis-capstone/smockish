@@ -2,75 +2,153 @@
 
 <html lang="en">
 	<head>
-		<!-- Meta Tags -->
-		<meta charset="UTF-8">
-		<!-- Web Page Title -->
+		<meta charset="utf-8">
 		<title>Smockish</title>
-		<!-- Favicon -->
 		<link rel='icon' type='image/png' href='favicon.png'>
 		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-		<!-- CSS Stylesheet -->
 		<link rel="stylesheet" href="css/style.css" />
-		<!-- Javascript -->
-		<script type="text/javascript" src="js/script.js"></script>
+		<link rel="stylesheet" href="css/colorbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".art").colorbox({rel:'art'});
+				$(".pic").colorbox({rel:'pic'});
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$("a.inline").colorbox({inline:true});
+			});
+		</script>
 	</head>
 
 	<body>
-		<div id="nav">
-			<table id="topNav">
+		<div id="top">
+			<table style="color:white">
 				<tr>
-					<td id="title"><a href="#">Smockish</a></td>
-					<td><form id="search" action="http://www.google.com/search" method="get">
-					<input type="search" name="search" size="50" placeholder="Search." />
+					<td><a class="title" href="index.htm">Smockish </a></td>
+					<td><form action="http://www.google.com/search" method="get">
+					<input type="search" name="q" size="28" onblur="value=''" placeholder="Search Artists and Artworks"/>
 					</form></td>
-					<td><a href="#">Sign In</a></td>
-					<td class="blur">||</td>
-					<td><a href="#">Cart</a></td>
-					<td class="blur">||</td>
-					<td><a href="#">How It Works</a></td>
+					<td><a class="inline" href="#signin"> Sign-In</a>/<a class="inline" href="#reg">Register </a></td>
+					<td class="seperator">||</td>
+					<td><a class="iframe" href="cart.php"> Cart </a></td>
+					<td class="seperator">||</td>
+					<td><a class="iframe" href="how_it_works.htm"> How It Works</a></td>
 				</tr>
 			</table>
 		</div>
-		
-		<div id="midNav">
-			<ul>
-				<li><a href="#"><img src="images/buy.png" alt=""/></a></li>
-				<li><a href="#"><img src="images/sell.png" alt=""/></a></li>
-				<li><a href="#"><img src="images/meet.png" alt=""/></a></li>
-			</ul>
+		<div id="nav">
+			<a class="art" href="img/buy.png"><img src="img/buy.png" alt="" /></a>
+			<a class="art" href="img/sell.png"><img src="img/sell.png" alt=""/></a>
+			<a class="art" href="img/meet.png"><img src="img/meet.png" alt=""/></a>
 		</div>
+		<div id="slide">
+		<iframe scrolling="no"  src="ss/image_gallery.html">
+			<p>Your browser does not support iframes.</p>
+		</iframe>
 		</div>
-		
-		<div id="featArt">
-			<img src="images/slide.png" alt="" />
-		</div>
-		
 		<div id="featArtist">
-			<h4>Featured Artists</h4>
-			<ul>
-				<li><img src="images/artist1.png" alt=""/></li>
-				<li><img src="images/artist2.png" alt=""/></li>
-				<li><img src="images/artist3.png" alt=""/></li>
-			</ul>
+			<strong>Featured Artists</strong>
 			<table id="info">
-				<tr><td>Janet Blumenthal</td><td>Dave Venell</td><td>Susan Q. Bryrd</td></tr>
-				<tr><td>#7 Painter in</td><td>#12 Sculptor in</td><td>#3 Photographer in</td></tr>
-				<tr><td>Arizona</td><td>Colorado</td><td>California</td></tr>
+				<tr>
+					<td><a class="pic" href="img/artist1.png"><img src="img/artist1.png" alt=""/></a></td>
+					<td><a class="pic" href="img/artist2.png"><img src="img/artist2.png" alt=""/></a></td>
+					<td><a class="pic" href="img/artist3.png"><img src="img/artist3.png" alt=""/></a></td>
+				</tr>
+				<tr>
+					<td>Janet Blumenthal</td>
+					<td>Dave Venell</td>
+					<td>Susan Q. Bryrd</td>
+				</tr>
+				<tr>
+					<td>#7 Painter in</td>
+					<td>#12 Sculptor in</td>
+					<td>#3 Photographer in</td>
+				</tr>
+				<tr>
+					<td>Arizona</td>
+					<td>Colorado</td>
+					<td>California</td>
+				</tr>
 			</table>
 		</div>
-		
-		<div id="email">
-			<h4>Interested?</h4>
-			<p style="font-size:25px">Enter your email to be the first to know when we launch to the public.</p>
-			<form action="mailto:tado1.1200653822@gmail.com" method="post">
-			<input type="email" name="email" placeholder="Email"
-			pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50" />
+		<div id="emailform">
+			<strong>Interested?</strong>
+			<p>Enter your email to be the first to know when we launch to the public.</p>
+			<form action="email.php" method="post">
+			<input type="email" name="email" placeholder="Email Address" pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50" />
 			<input type="submit" value="Submit" />
 			</form>
 		</div>
-		
+		<div style='display:none'>
+			<div id="signin">
+				<form action="#" method="post">
+					<h1>Sign In</h1>
+					<hr>
+					<p><input type="email" name="email" placeholder="E-mail Address" required title="[Required] {Limit:6-50} Valid E-mail Address Only" pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50"/></p>
+					<p><input type="password" name="password" placeholder="Password" required title="[Required] {Limit:4-20} Alphanumberic Characters, - _ ! and $ Only." pattern="[a-zA-Z0-9-_!$]{4,20}"/></p>
+					<p><a class="inline fix" href="#reset">Forgot your password?</a></p>
+					<button type="submit">Sign In To Your Account</button>
+					<p>Not a member? <a class="inline fix" href="#reg">Join Now</a></p>
+				</form>
+			</div>
+		</div>
+		<div style='display:none'>
+			<div id="reset">
+				<form action="#" method="post">
+					<h1>Password Recovery</h1>
+					<hr>
+					<p>Enter your email address below and we will send you a replacement password.</p>
+					<p><input type="email" name="email" placeholder="E-mail Address" required title="[Required] {Limit:6-50} Valid E-mail Address Only" pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50"/></p>
+					<button type="submit">Reset Password</button>
+				</form>
+			</div>
+		</div>
+		<div style='display:none'>
+			<div id="reg">
+				<form action="#" method="post">
+					<h1>Smockish Registration</h1>
+					<hr>
+					<table>
+						<tr>
+							<td><label>First Name*</label><br />
+							<input type="text" name="fname" placeholder="First Name" required title="[Required] {Limit:2-30} Upper/Lower Case Alphabetic Characters, - and ' Only." pattern="[a-zA-Z-' ]{2,30}"/></td>
+							<td><label>Nick Name</label><br />
+							<input type="text" name="nname" placeholder="Nick Name" title="[Optional] {Limit:2-30} Upper/Lower Case Alphabetic Characters, - and ' Only." pattern="[a-zA-Z-' ]{2,30}"/></td>
+							<td><label>Last Name*</label><br />
+							<input type="text" name="lname" placeholder="Last Name" required title="[Required] {Limit:2-30} Upper/Lower Case Alphabetic Characters, - and ' Only." pattern="[a-zA-Z-' ]{2,30}"/></td>
+						</tr>
+						<tr>
+							<td><label>Zip Code*</label><br />
+							<input type="text" name="zip" placeholder="Zip Code" required title="[Required] {Limit:5} Numberic Characters Only." pattern="[0-9]{5,5}"/></td>
+							<!--<td><label>Website</label><br />
+							<input type="url" name="website" placeholder="Website" title="[Optional] Format:https://..." pattern="https?://.+"/></td>-->
+							<td><label>Referral Code</label><br />
+							<input type="text" name="refcode" placeholder="Referral Code" title="[Optional] {Limit:8} Alphanumberic Characters Only." pattern="[a-zA-Z0-9]{8,8}"/></td>
+						</tr>
+							
+						<tr>
+							<td><label>E-mail Address*</label><br />
+							<input type="email" name="email" placeholder="E-mail Address" required title="[Required] {Limit:6-50} Valid E-mail Address Only" pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50"/></td>
+							<td><label>Password*</label><br />
+							<input type="password" name="password" placeholder="Password" required title="[Required] {Limit:4-20} Alphanumberic Characters, - _ ! and $ Only." onchange="form.reenter.pattern=this.value;" pattern="[a-zA-Z0-9-_!$]{4,20}"/></td>
+							<td><label>Confirm Password*</label><br />
+							<input type="password" name="cpassword" placeholder="Confirm Password" required title="[Required] Password must match!" pattern="[a-zA-Z0-9-_!$]{4,20}"/></td>
+						</tr>
+					</table>
+					<h2>Join Our Newsletter</h2>
+					<hr>
+					<p>Stay up to date on works by your favorite artists and get notified when new auctions launch.</p>
+					<input type="checkbox" name="newscheck" /><label>Sign me up!</label>
+					<p>By signing up you agree to Smockish's <a class="iframe fix" href="about/terms.htm">terms and conditions</a> and <a class="iframe fix" href="about/privacy.htm">privacy policy</a>.</p>
+					<button type="submit">Join Now</button>
+					<p>Already a member? <a class="inline fix" href="#signin">Sign In</a></p>
+				</form>
+			</div>
+		</div>
 		<footer>
 			<p>&copy; 2014, Smockish Dev Team</p>
 		</footer>
+
 	</body>
 </html>
