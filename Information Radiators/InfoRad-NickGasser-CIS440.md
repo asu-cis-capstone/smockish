@@ -8,7 +8,23 @@ Describe the “output”, i.e., what’s the measurement, statistic, or data vi
 Discuss the implementation. Would it be a simple SQL query? Require new software or new code? Require a re-design or re-architecture of the program? Estimate the time and resources it would take.
 
 
-
 ###Google Analytics
 
-![](https://github.com/github/training-kit/blob/master/images/professortocat.png)
+
+This is a feature/user story proposal for implementing Google Analytics into the Smockish website. For a start-up business, . The wealth of analytics provided by Google is invaluable for driving user growth and retention. The Google Analytics platform offers customizable dashboards to present the website’s data in an easy to . Listed below are just a small sample of the real-time tools that are offered:
+
+1. Traffic Analytics
+  * Number of unique users
+  * User Location
+  
+2. Site Design Analytics
+  * Usability Metrics
+  * test3
+  
+3. User Behavior Analytics
+  * test
+  * test1
+	
+The feature is implemented by creating a google analytics account, copying and pasting the tracking code snippet into the <head> tag of every webpage for the site.  One to two developers can implement this feature and provide ongoing maintenance. The biggest resource needed is time to learn the base functionality of all of the tools and be able to customize the analytics when needed.
+
+[Visit the Google Analytics Reference Page](http://www.google.com/analytics)
