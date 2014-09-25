@@ -1,5 +1,4 @@
-You will propose a new "feature" or addition to your project in the latter cateogory: something that would give them valuable learning as they develop and use their new software. Write a proposal for a way to acquire or re-use data that will be of some business value. Tell us what the benefit to the client will be, and how feasible it is to build the measurement/analysis functions into the product. How would you do it, and where would the code go? 
-This is a hypothetical; you don't actually have to build your proposed mechanism into the product. But it should be a well-reasoned proposal so that the client can consider it and decide whether they want to add it to the product backlog.
+Tell us what the benefit to the client will be, and how feasible it is to build the measurement/analysis functions into the product. How would you do it, and where would the code go? This is a hypothetical; you don't actually have to build your proposed mechanism into the product. But it should be a well-reasoned proposal so that the client can consider it and decide whether they want to add it to the product backlog.
 
 For full credit:
 Describe the “output”, i.e., what’s the measurement, statistic, or data visualization that you propose to provide?
@@ -21,7 +20,7 @@ This is a feature/user story proposal for implementing Google Analytics into the
   * test
   * test1
 	
-The feature is implemented by creating a google analytics account, copying and pasting the tracking code snippet into the <head> tag of every webpage for the site.  One to two developers can implement this feature and provide ongoing maintenance. The biggest resource needed is time to learn the base functionality of all of the tools and be able to customize the analytics when needed.
+The feature is implemented by creating a google analytics account, copying and pasting the tracking code snippet into the head tag of every webpage for the site. One to two developers can implement this feature and provide ongoing maintenance. The biggest resource needed is time to learn the base functionality of all of the tools and be able to customize the analytics when needed.
 
 
 ![Analytics Dashboard](http://blog.a-m-a.co.uk/wp-content/uploads/2013/10/amadash3.png)
