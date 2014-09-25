@@ -7,9 +7,7 @@ For full credit:
 Describe the “output”, i.e., what’s the measurement, statistic, or data visualization that you propose to provide?
 Discuss the implementation. Would it be a simple SQL query? Require new software or new code? Require a re-design or re-architecture of the program? Estimate the time and resources it would take.
 
-
-###Google Analytics
-
+![](http://www.google.com/images/logos/google_logo_41.png) **Analytics**
 
 This is a feature/user story proposal for implementing Google Analytics into the Smockish website. For a start-up business, . The wealth of analytics provided by Google is invaluable for driving user growth and retention. The Google Analytics platform offers customizable dashboards to present the website’s data in an easy to . Listed below are just a small sample of the real-time tools that are offered:
 
