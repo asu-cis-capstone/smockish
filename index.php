@@ -33,7 +33,7 @@
 					<td class="seperator">|</td>
 					<td><a class="iframe" href="how_it_works.htm"> How It Works</a></td>
 					<td><form action="http://www.google.com/search" method="get">
-					<input type="search" name="q" size="30" onblur="value=''" placeholder="Search"/>
+					<input type="search" name="q" size="25" onblur="value=''" placeholder="Search"/>
 					</form></td>
 				</tr>
 			</table>
@@ -42,23 +42,23 @@
 		<div id="emailform">
 			<strong>Welcome to your gallery.</strong>
 			<p>Buy art directly from artists at any price range.<br />Build your network and discover rising talent near you.</p>
-			<form action="email.php" method="post">
+			<form action="../lists/?p=subscribe" method="post">
 			<input type="email" name="email" placeholder="enter email address" required pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50" />
 			<input type="submit" value="get early access" />
 			</form>
 		</div>
 		
 		<div id="nav">
-			<a href="#info1"><img src="img/buy.png" alt="" /></a>
-			<a href="#info2"><img src="img/sell.png" alt=""/></a>
-			<a href="#info3"><img src="img/meet.png" alt=""/></a>
+			<img src="img/buy.png" alt="" />
+			<img src="img/sell.png" alt=""/>
+			<img src="img/meet.png" alt=""/>
 		</div>
 		
 		<div id="info1">
 			<table>
-				<tr><td colspan="2"><h1 style="font-size:45px">optimized transactions, personal experience.</h1></td></tr>
+				<tr><td colspan="2"><h1>optimized transactions, personal experience.</h1></td></tr>
 				<tr>
-					<td valign="top" align="left">
+					<td>
 						<p>Browse a huge searchable database of art<br />from the convenience of your home.<br />Ranking algorithms personally<br />recommended art and help you make an<br />informed purchase about what's hot.<br />Then complete the purchase online,<br />securely and quickly.</p>
 						<p>Not sold from our listings? Get in touch<br />with the seller, arrange to see the art in person,<br />or schedule a tour of the artist's studio with one<br />click of a button. Be as involved as you want to<br />be with every work you collect.</p>
 					</td>
@@ -68,11 +68,11 @@
 		</div>
 		<div id="info2">
 			<table>
-				<tr><td colspan="2"><h1 style="font-size:45px">it's your art. sell it on your terms.</h1></tr>
+				<tr><td colspan="2"><h1>it's your art. sell it on your terms.</h1></tr>
 				<tr>
 					<td><img src="img/2.png" alt="" /></td>
-					<td valign="top" align="right">
-						<p>Smockish is the world's largest art show - and<br />it never ends. Anyone can list their art<br />online, set their prices, and personally work<br />with interested collectors.</p>
+					<td>
+						<p>Smockish is the world's largest art show<br />it never ends. Anyone can list their art<br />online, set their prices, and personally work<br />with interested collectors.</p>
 						<p>Kiss goodbye to high comission rates.<br />At Smockish, you retain over 85% of the<br />profit from each transaction. that's higher<br />than any online retailer in the industry.</p>
 					</td>
 				</tr>
@@ -80,10 +80,10 @@
 		</div>
 		<div id="info3">
 			<table>
-				<tr><td colspan="2"><h1 style="font-size:45px">the art world's new home network.</h1></tr>
+				<tr><td colspan="2"><h1>the art world's new home network.</h1></tr>
 				<tr>
-					<td valign="top" align="left">
-						<p>Smockish takes the conversion about<br />culture and brings it online, accessible<br />and open to everyone. Join conversations<br />about trending art. Connect with local<br />artists and collectors in your area.<br />Act as a patron and promote the art<br />you love. We believe that art is for<br />everyone, and now anyone can participate<br />in the art world.</p>
+					<td>
+						<p>Smockish takes the conversion about<br />culture and brings it online, accessible<br />and open to everyone. Join conversations<br />about trending art. Connect with local<br />artists and collectors in your area.<br />you love. We believe that art is for<br />everyone, and now anyone can participate<br />in the art world.</p>
 					</td>
 					<td><img src="img/3.png" alt="" /></td>
 				</tr>
@@ -95,19 +95,23 @@
 				<form action="checkLogin.php" method="post">
 					<h1>Sign In</h1>
 					<hr>
-					<p><input type="email" name="email" placeholder="E-mail Address" required pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50"/></p>
-					<p><input type="password" name="password" placeholder="Password" required pattern="[a-zA-Z0-9-_!$]{4,20}"/></p>
+					<p><input type="email" name="email" placeholder="E-mail Address" required title="[Required] {Limit:6-50} Valid E-mail Address Only" pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50"/></p>
+					<p><input type="password" name="password" placeholder="Password" required title="[Required] {Limit:4-20} Alphanumberic Characters, - _ ! and $ Only." pattern="[a-zA-Z0-9-_!$]{4,20}"/></p>
 					<p><a class="inline fix" href="#reset">Forgot your password?</a></p>
 					<button type="submit">Sign In To Your Account</button>
 					<p>Not a member? <a class="inline fix" href="#reg">Join Now</a></p>
 					<?php
-						if (isset($_GET['lerror'])) {
-							if($_GET["lerror"] == 1)
-								echo '<p>Email invalid!</p>';
-							if($_GET["lerror"] == 2)
-								echo '<p>Password invalid!</p>';
-							if($_GET["lerror"] == 3)
-								echo '<p>Login Success!</p>';
+						if($_GET["lerror"] == 1)
+						{
+							echo '<p class="loginerror">Email invalid!</p>';
+						}
+						if($_GET["lerror"] == 2)
+						{
+							echo '<p class="loginerror">Password invalid!</p>';
+						}
+						if($_GET["lerror"] == 3)
+						{
+							echo '<p class="loginerror">Login Success!</p>';
 						}
 					?>
 				</form>
