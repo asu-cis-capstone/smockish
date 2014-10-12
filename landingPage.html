@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex,nofollow" />
+		<title>Smockish</title>
+		<link rel='icon' type='image/png' href='favicon.png'>
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/colorbox.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".art").colorbox({rel:'art'});
+				$(".pic").colorbox({rel:'pic'});
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$("a.inline").colorbox({inline:true});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="top">
+			<table style="text-align: center">
+				<tr>
+					<td><a class="title" href="landingPage.html"><img src="img/logo.png" alt="" /></a></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="emailform">
+			<strong>Welcome to your gallery.</strong>
+			<p>Buy art directly from artists at any price range.<br />Build your network and discover rising talent near you.</p>
+			<form action="email.php" method="post">
+			<input type="email" name="email" placeholder="enter email address" required pattern="[a-z0-9.-_$]+@[a-z0-9-_]+\.[a-z]{2,6}" maxlength="50" />
+			<input type="submit" value="get early access" />
+			</form>
+		</div>
+
+		<div id="info1">
+			<table>
+				<tr><td colspan="2"><h1 style="font-size:45px">optimized transactions, personal experience.</h1></td></tr>
+				<tr>
+					<td valign="top" align="left">
+						<p>Browse a huge searchable database of art<br />from the convenience of your home.<br />Ranking algorithms personally<br />recommended art and help you make an<br />informed purchase about what's hot.<br />Then complete the purchase online,<br />securely and quickly.</p>
+						<p>Not sold from our listings? Get in touch<br />with the seller, arrange to see the art in person,<br />or schedule a tour of the artist's studio with one<br />click of a button. Be as involved as you want to<br />be with every work you collect.</p>
+					</td>
+					<td><img src="img/1.png" alt="" /></td>
+				</tr>
+			</table >
+		</div>
+		<div id="info2">
+			<table>
+				<tr><td colspan="2"><h1 style="font-size:45px">it's your art. sell it on your terms.</h1></tr>
+				<tr>
+					<td><img src="img/2.png" alt="" /></td>
+					<td valign="top" align="right">
+						<p>Smockish is the world's largest art show - and<br />it never ends. Anyone can list their art<br />online, set their prices, and personally work<br />with interested collectors.</p>
+						<p>Kiss goodbye to high comission rates.<br />At Smockish, you retain over 85% of the<br />profit from each transaction. that's higher<br />than any online retailer in the industry.</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="info3">
+			<table>
+				<tr><td colspan="2"><h1 style="font-size:45px">the art world's new home network.</h1></tr>
+				<tr>
+					<td valign="top" align="left">
+						<p>Smockish takes the conversion about<br />culture and brings it online, accessible<br />and open to everyone. Join conversations<br />about trending art. Connect with local<br />artists and collectors in your area.<br />Act as a patron and promote the art<br />you love. We believe that art is for<br />everyone, and now anyone can participate<br />in the art world.</p>
+					</td>
+					<td><img src="img/3.png" alt="" /></td>
+				</tr>
+			</table>
+		</div>
+		<footer>
+			<p>&copy; 2014, Smockish</p>
+		</footer>
+
+	</body>
+</html>

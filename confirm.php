@@ -11,7 +11,7 @@
 	
 	// PHP variable for each user-entered element
 	$fname = mysqli_real_escape_string($dbc,$_POST['fname']);
-	$nname = mysqli_real_escape_string($dbc,$_POST['nname']);
+	$nname = mysqli_real_escape_string($dbc,$_POST['lname']);
 	$lname = mysqli_real_escape_string($dbc,$_POST['lname']);
 	$zip = $_POST['zip'];
 	$refcode = $_POST['refcode'];
