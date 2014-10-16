@@ -1,6 +1,27 @@
 Smockish 
 ===
 
+###v0.4 Sprint Update
+
+**Completed:**
+
+1. Email phpList Functionality - for email signup/maintenance
+2. Uploaded the site to a live host server
+3. Began manual testing processes and documentation
+4. Updated html for intial profile page
+
+**To-Do List For Upcoming Sprint:**
+
+1. Create Profile Page HTML/CSS/PHP
+2. Create Listing Page HTML/CSS/PHP
+3. Sustained Sign-in Functionality across Pages -PHP Related
+4. Display User data on pages via php/mysql query
+5. Continued Testing
+
+![Trello To-Do List](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Commit%20v4%20Docs/Screen%20Shot%202014-10-16%20at%202.49.13%20PM.png?token=8496667__eyJzY29wZSI6IlJhd0Jsb2I6YXN1LWNpcy1jYXBzdG9uZS9zbW9ja2lzaC9tYXN0ZXIvQ29tbWl0IHY0IERvY3MvU2NyZWVuIFNob3QgMjAxNC0xMC0xNiBhdCAyLjQ5LjEzIFBNLnBuZyIsImV4cGlyZXMiOjE0MTQxMDEzMDJ9--0d6b49f6c6e499d415f74d8ea875f350806435dd)
+
+![Burndown Chart]()
+
 ###Overview
 
 The Smockish team will be creating an e-commerce site for artists to sell direct to collectors cutting out galleries and their hefty commissions fees. Initially the site will have a landing page to collect user information for marketing and investor purposes. The site will then open to a robust marketplace with long term plans to have a social media aspect for artists to build a loyal following among their fans.
