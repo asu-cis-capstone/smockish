@@ -8,6 +8,9 @@ Smockish
 1. Email phpList Functionality - for email signup/maintenance
 2. Uploaded the site to a live host server
 3. Began manual testing processes and documentation
+  * Listed below are two links to word docs of testing process information
+  * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/raw/master/Commit%20v4%20Docs/Test%20Case%20for%20Registering.docx)
+  * [Testing Process](https://github.com/asu-cis-capstone/smockish/raw/master/Commit%20v4%20Docs/How%20I%20tested.docx)
 4. Updated html for intial profile page
 
 **To-Do List For Upcoming Sprint:**
