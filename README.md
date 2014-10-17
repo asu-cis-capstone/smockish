@@ -23,7 +23,7 @@ Smockish
 
 ![Trello To-Do List](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Commit%20v4%20Docs/Screen%20Shot%202014-10-16%20at%202.49.13%20PM.png?token=8496667__eyJzY29wZSI6IlJhd0Jsb2I6YXN1LWNpcy1jYXBzdG9uZS9zbW9ja2lzaC9tYXN0ZXIvQ29tbWl0IHY0IERvY3MvU2NyZWVuIFNob3QgMjAxNC0xMC0xNiBhdCAyLjQ5LjEzIFBNLnBuZyIsImV4cGlyZXMiOjE0MTQxMDEzMDJ9--0d6b49f6c6e499d415f74d8ea875f350806435dd)
 
-![Burndown Chart]()
+![Burndown Chart](https://github.com/asu-cis-capstone/smockish/raw/master/Commit%20v4%20Docs/burndown.PNG)
 
 ###Overview
 
