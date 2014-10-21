@@ -183,3 +183,20 @@ form button[type=submit]{
 	max-width:	400px; 
 	max-height:	450px;
 }
+.usertypelabel
+{
+	width: 5em; 
+	margin: auto;  
+	text-align: auto; 
+	border: 1px solid red; 
+}
+.usertypebox
+{
+	height: 	30px;
+	width:	30px;
+	font-size: 10px;
+	/*height: 	30px;
+	width:		250px;
+	font-size:	18px;
+	*/ 
+}
