@@ -1,0 +1,82 @@
+                                                                *{
+	font-family: 			Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	text-align:			center;
+}
+
+#top{	
+	/*position: 		fixed;*/
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}
+
+body {
+	margin: 			auto;
+	width: 				1280px;
+	background:			black;
+}
+
+
+#profile{	
+	border-bottom:			3px solid goldenrod; 
+	color:          		white;
+}
+
+#profile img{
+	width:				180px;
+	height:				180px;
+	margin:     			10px, 10px, 10px, 10px;
+}
+
+#bio {
+	color:				#EA74BF;
+	width:				800px;
+    	height:				450px;
+    	left: 				580px;
+    	top: 				25px;
+}
+
+#statement{
+	color:				white;
+	border-bottom:			3px solid goldenrod;
+}
+
+.name {
+	font-size:          		200%;
+	font-weight:        		bold;
+}
+
+label{
+	color:				red;
+}
+
+.arttitle, .biotitle{
+	font-size:			180%;
+	font-weight:			bold;
+}
+
+.contact{
+	font-style:			italic;
+	font-weight:			bold;
+}
+
+.biop{
+	width: 				650px;
+}
+                            
+form input[type=search]{
+	height:		30px;
+	font-size:	18px;
+}
+                 
+                            
+                            
+                            

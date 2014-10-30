@@ -1,0 +1,231 @@
+                                *{
+	font-family: 	Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	text-align: 	center;
+}
+
+body {
+	margin: 		auto;
+	width: 			1280px;
+	background:		black;
+}
+
+h1,h2{
+	margin: 0px;
+}
+
+hr {
+	height:			2px;
+	border-width:		0px;
+	color:			gray;
+	background-color:	gray;
+	width:			95%;
+}
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}
+
+#top{	
+	position: 		fixed;
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+#email,#listing,#nav,#info1,#info2,#info3, #slide, #featArtist{
+	padding-top:	25px;
+	padding-bottom:	25px;	
+	border-bottom:	3px solid goldenrod;
+}
+
+iframe {
+	border:		0px;
+	height:		475px;
+	width:		100%;
+}
+
+#featArtist {
+	color: white;
+	padding-top:	10px;
+}
+
+#artist {
+	font-size:		25px;
+	font-weight: 	bold;
+}
+
+#artist tr td img {
+	display: 		block;
+    margin:			8px;
+	height:			350px;
+	width:			90%;
+	border:			8px solid white;
+	border-radius: 	8px;
+	float: 			left;
+}
+
+table {
+	width:	100%;
+}
+
+form input[type=search]{
+	height:		30px;
+	font-size:	18px;
+}
+
+#nav{
+	height: 350px;
+}
+
+#nav a img{
+	height:			350px;
+	width:			32.5%;
+	float:			left;
+	padding-left:	5px;
+	padding-right:	5px;
+}
+
+#email, #listing{
+	background:		black;
+	color:			white;
+	padding:		100px 0px 20px 0px;	
+}
+
+#email  p, #listing  p{
+	font-size:	30px;
+	margin-top:	0px;
+}
+
+strong{
+	font-size:	55px;
+	margin:		0px;
+}
+
+#email a input[type=button],#listing a input[type=button]{
+	background:		gold;
+	color:			white;
+	width:			300px;
+	height:			46px;
+	font-weight:	bold;
+	font-size:		28px;
+	border:			3px solid gold;
+}
+
+footer {
+	background: black;
+	color:		white;
+}
+
+a:link {
+	color: 	white; 
+	text-decoration:none;
+}
+a:hover {
+	color: 	white; 
+	text-decoration:underline;
+}
+a:visited {
+	color: white;
+}
+
+#signin,#reset{
+	width:		100%;
+}
+
+.inline.fix,.iframe.fix{
+	color:				blue; 
+	text-decoration:	underline;
+}
+
+form p input, form table tr td input{
+	height: 	30px;
+	width:		250px;
+	font-size:	18px;
+}
+
+form button[type=submit]{
+	border:		1px solid #444444;
+	background:	#444444;
+	font-size:	18px;
+	color:		white;
+	height: 	30px;
+	width:		250px;
+}
+
+#reg{
+	width:	800px;
+	font-size:	115%;
+}
+
+#info1 table, #info2 table, #info3 table{
+	padding:		20px;
+	background: 	white;
+	color:			black;
+	width:			900px;
+	margin: 	auto;
+}
+
+#info1 table tr td p, #info3 table tr td p{
+	text-align:		left;
+	padding-left:	30px;
+	width:			500px; 
+	height:			auto;
+	font-size:		22px;
+}
+
+#info2 table tr td p{
+	text-align:		right;
+	padding-right:	30px;
+	width:			500px; 
+	height:			auto;
+	font-size:		22px;
+}
+
+#info1 table tr td h1, #info3 table tr td h1{
+	text-align:	left;
+	height:		auto;
+}
+
+#info2 table tr td h1{
+	text-align:	right;
+	height:		auto;
+}
+
+#info1 table tr td img, #info2 table tr td img, #info3 table tr td img{
+	max-width:	400px; 
+	max-height:	450px;
+}
+.usertypelabel
+{
+	width: 5em; 
+	margin: auto;  
+	text-align: auto; 
+<<<<<<< Updated upstream:css/style.css
+	border: 1px solid red; 
+=======
+>>>>>>> Stashed changes:Commit V5 Docs/Studiocracy/css/style.css
+}
+.usertypebox
+{
+	height: 	30px;
+	width:	30px;
+	font-size: 10px;
+	/*height: 	30px;
+	width:		250px;
+	font-size:	18px;
+	*/ 
+<<<<<<< Updated upstream:css/style.css
+}
+=======
+}
+                            
+                            
+                            
+                            
+                            
+                            
+>>>>>>> Stashed changes:Commit V5 Docs/Studiocracy/css/style.css
