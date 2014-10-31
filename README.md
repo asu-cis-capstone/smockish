@@ -10,7 +10,7 @@ Smockish
 3. Continued manual testing processes and documentation for php code that writes to the database for create/edit functions
   * Listed below are two links to word docs of the current testing process information
   * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V5%20Docs/Test%20Cases.docx)
-  * [Testing Process]()
+  * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V5%20Docs/Studiocracy%20Testing%20v2.docx)
 4. All current code is uploaded into the Commit V5 Docs/studiocracy folder location
 5. Sustained Sign-in Functionality across Pages - PHP sessions used
 6. Display User data on pages via php/mysql query
