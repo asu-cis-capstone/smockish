@@ -1,6 +1,33 @@
 Smockish 
 ===
 
+###v0.6 Sprint Update
+
+**Completed:**
+
+1. Created Profile Page HTML/PHP partially integrated
+2. Created Listing Page HTML/PHP partially integrated
+3. Continued manual testing processes and documentation for php code that writes to the database for create/edit functions
+  * Listed below are two links to word docs of the current testing process information
+  * [Test Case Documentation]()
+  * [Testing Process]()
+4. All current code is uploaded into the Commit V5 Docs/studiocracy folder location
+5. Sustained Sign-in Functionality across Pages - PHP sessions used
+6. Display User data on pages via php/mysql query
+
+**To-Do List For Upcoming Sprint:**
+
+1. Continue Profile Page CSS/PHP
+2. Continue Listing Page CSS/PHP
+3. Design/Implement a Home page that displays artwork listings
+4. Incorporate database with actual artist data
+5. Continued PHP Based manual Testing
+
+![Trello To-Do List]()
+
+![Burndown Chart]()
+
+
 ###v0.5 Sprint Update
 
 **Completed:**
