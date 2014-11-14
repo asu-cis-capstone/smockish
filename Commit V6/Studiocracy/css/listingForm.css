@@ -1,0 +1,98 @@
+*{
+	font-family: 		Sitka Heading,Sitka Small,Georgia,Times New Roman;
+}	
+
+#top{	
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+
+body {
+	margin: 		auto;
+	width: 			1050px;
+	background:		black;
+	color:			white;
+}
+
+.sh1 {
+	font-size:          	125%;
+	font-weight:       	 bold;
+	text-align:	    	center;
+}
+
+.sh2 {
+	font-size:        	  110%;
+	font-weight:      	  bold;
+	text-align:	  	  center;
+}
+
+.fh1 {
+	font-size:		120%;
+	font-weight:		bold;
+	text-decoration:	underline;
+        color:			black;
+}
+
+#joinform{
+	width:				40%;
+	margin: 			auto;
+	border:				15px dotted gray;
+	margin-top:			5px;
+	padding-left:			5px;
+	background-color:		#FFFFE0;
+	box-shadow:			5px 5px 3px 3px	rgba(128,128,128,.4);
+	padding:			10px;
+}
+
+label {
+	width:				11em;
+	float:				left;
+	text-align:			left;
+        color:				black;     
+}
+
+
+
+.submit { text-align: 	center;}
+
+.submit input{
+	font-size: 			95%;
+	background-color:	        #605B5B;
+	color:				white;
+	font-style:			italic;
+	font-weight:		        bold;
+	box-shadow:			5px 5px 0px 0px rgba(203,190,190,.4);
+}
+
+
+footer {
+	background: 	black;
+	color:		white;
+	text-align:	center;
+}               
+                 
+#pic img{
+	width:				800x;
+	height:				400px;
+	margin:     			10px, 10px, 10px, 10px;
+	background-color:		black;
+	box-shadow:			5px 5px 3px 3px	rgba(128,128,128,.4);
+	border:				15px solid gray;
+	display: 			inline-block; 
+}                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            

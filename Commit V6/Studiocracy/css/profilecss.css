@@ -1,0 +1,168 @@
+                                                                                                                                                                                                                                                                                                                                *{
+	font-family: 			Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	text-align:			center;
+}
+
+#top{	
+	/*position: 		fixed;*/
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}
+
+body {
+	margin: 			auto;
+	width: 				1280px;
+	background:			black;
+}
+
+
+#profile{	
+	border-bottom:			3px solid goldenrod; 
+	color:          		white;
+	margin-left:		30px;
+	padding-left:		50px;
+}
+
+.proname{
+	color:				white;
+	margin-right:			200px;
+	border-right:			3px solid goldenrod;
+}
+
+.info2{
+	
+	
+	
+	 position:center center; top: 5px; right: 50px; text-align: right; 
+	padding-left: 50px;
+
+	
+}
+
+#profile img{
+	width:				180px;
+	height:				180px;
+	margin:     			10px, 10px, 10px, 10px;
+}
+
+#bio {
+	color:				#EA74BF;
+	width:				800px;
+    	height:				450px;
+    	left: 				580px;
+    	top: 				25px;
+}
+
+#statement{
+	color:				white;
+	border-bottom:			3px solid goldenrod;
+}
+
+.name {
+	font-size:          		200%;
+	font-weight:        		bold;
+}
+
+label{
+	color:				red;
+}
+
+.arttitle, .biotitle{
+	font-size:			180%;
+	font-weight:			bold;
+}
+
+.contact{
+	font-style:			italic;
+	font-weight:			bold;
+}
+
+.biop{
+	width: 				650px;
+}
+                            
+form input[type=search]{
+	height:				30px;
+	font-size:			18px;
+}
+
+                 
+footer {
+	background: 			black;
+	color:				white;
+}               
+                              
+      
+/*----- Tabs -----*/
+.tabs {
+    width:50%;
+    display:inline-block;
+    height:	150px;
+}
+ 
+ /*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+ 
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+ 
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#FFFF66;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+ 
+.tab-links a:hover {
+	background:#FFFF33;
+	text-decoration:none;
+}
+ 
+li.active a, li.active a:hover {
+	background:#FFFF99;
+	color:#4c4c4c;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#FFFF99;
+}
+ 
+.tab {
+	display:none;
+}
+ 
+.tab.active {
+	display:block;
+}
+                            
+                                                            
+                            
+                            
+                            
+                            
+                            

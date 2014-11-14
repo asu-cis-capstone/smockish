@@ -1,0 +1,152 @@
+                                                                                                                                                                                                                                                                                                                                                    *{
+	font-family: 	Sitka Heading,Sitka Small,Georgia,Times New Roman
+	text-align:	center;
+}
+
+#top{	
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}
+
+body {
+	margin: 			auto;
+	width: 				1280px;
+	background:			black;
+}
+
+
+#profile{	
+	border-bottom:			3px solid goldenrod; 
+	color:          		white;
+}
+
+#profile img{
+	width:				180px;
+	height:				180px;
+	margin:     			10px, 10px, 10px, 10px;
+}
+
+#bio, #statement, #contacts {
+	border-bottom:			3px solid goldenrod; 
+    	text-align: center;
+}
+
+.name {
+	font-size:          		200%;
+	font-weight:        		bold;
+}
+
+label{
+	float:				left;
+	text-align:			right;
+	clear:				left;
+	color:				white;
+}
+
+
+input{
+	
+	float:		right;
+	
+ 	margin-bottom:	2%;
+}
+
+.arttitle, .biotitle{
+	font-size:			180%;
+	font-weight:			bold;
+}
+
+.biop{
+	width: 				650px;
+}
+   
+.submit{
+	width:				300px;
+	height:				35px;
+	margin-top:			10px;
+	margin-right:			43%;
+	
+	
+}   
+   
+                            
+form input[type=search]{
+	height:				30px;
+	font-size:			18px;
+}
+
+                 
+footer {
+	background: 			black;
+	color:				white;
+}               
+   
+/*----- Tabs -----*/
+.tabs {
+    width:50%;
+    display:inline-block;
+}
+ 
+ /*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+ 
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+ 
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#7FB5DA;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+ 
+.tab-links a:hover {
+	background:#a7cce5;
+	text-decoration:none;
+}
+ 
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+ 
+.tab {
+	display:none;
+}
+ 
+.tab.active {
+	display:block;
+}
+                            
+                            
+                            
+                            

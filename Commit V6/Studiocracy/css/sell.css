@@ -1,0 +1,149 @@
+*{
+	font-family: 			Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	background:			black;
+	text-align:			center;
+}          
+
+#top{	
+	/*position: 		fixed;*/
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		black;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}
+
+#artWork{
+	border:			15px ridge;
+	border-color:		gray;
+	width:			1280px;
+	color:			white;
+}
+
+table.pics	{border:	2px solid gray;}
+table.information{border:	3px double gray;}
+table.description{border:	3px double gray;}
+
+.pics{	
+	float:			left;
+	position:		relative;
+	text-align:		center;
+	display:		inline-block;
+	
+	
+}
+
+.pic img{
+	width:				250px;
+	height:				250px;
+}
+.descriptions{
+	color:			white
+	position:		relative;
+	text-align:		center;
+	display:		inline-block;
+	width:			300px;
+	height:			230px;
+	border-collapse: separate;
+   	border-spacing: 10 50em;
+   	padding: 10px;
+   	
+   	
+}
+
+
+.information{
+	color:			white
+	float:			right;
+	position:		relative;
+	text-align:		left;
+	display:		inline-block;
+	width:			600px;
+	height:			230px;
+	border-collapse: separate;
+   	border-spacing: 10 50em;
+   	padding: 10px;
+   	
+	
+}
+
+.des{
+	text-decoration: 	underline;
+	font-size:		25px;
+	font-weight:		bold;
+}
+
+.title{
+	
+	font-size:		15px;
+	
+}
+
+.art{
+	
+	font-size:		15px;;
+}
+
+.aName{
+	
+	font-size:		15px;
+	color:white;
+}
+
+.series{
+	
+	font-size:		15px;
+	
+}
+
+.year{
+	
+	font-size:		15px;
+	
+}
+
+.medium{
+	
+	font-size:		15px;
+	
+}
+
+.dimensions{
+	
+	font-size:		15px;
+	
+}
+
+.price{
+	
+	font-size:		15px;
+	
+}
+
+.stock{
+	
+	font-size:		15px;
+	
+}
+
+
+
+
+.button{
+	color: black;
+	background:	#E0E0E0;
+	width:		80px;
+	margin-left:	70%;
+	position:	relative;
+	display:		inline-block;
+	
+}
+                            
+                            
+                            
