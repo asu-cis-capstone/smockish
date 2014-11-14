@@ -5,27 +5,28 @@ Smockish
 
 **Completed:**
 
-1. Created Profile Page HTML/PHP partially integrated
-2. Created Listing Page HTML/PHP partially integrated
-3. Continued manual testing processes and documentation for php code that writes to the database for create/edit functions
+1. Integrated CRUD function pages for profiles and listing
+2. Design/Implement a Home page that displays artwork listings
+3. Continued manual testing processes and documentation for all CRUD functions for profile and listing
   * Listed below are two links to word docs of the current testing process information
-  * [Test Case Documentation]()
-  * [Testing Process]()
-4. All current code is uploaded into the Commit V5 Docs/studiocracy folder location
-5. Sustained Sign-in Functionality across Pages - PHP sessions used
-6. Display User data on pages via php/mysql query
+  * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Test%20Cases%20v3.docx?raw=true)
+  * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Studiocracy%20Testing%20v3.docx?raw=true)
+4. Front end design of profile and listing pages continued
+5. All current code is uploaded into the Commit V6 Docs/studiocracy folder location
 
-**To-Do List For Upcoming Sprint:**
 
-1. Continue Profile Page CSS/PHP
-2. Continue Listing Page CSS/PHP
-3. Design/Implement a Home page that displays artwork listings
-4. Incorporate database with actual artist data
-5. Continued PHP Based manual Testing
+**To-Do List For Upcoming Sprint/Presentation:**
 
-![Trello To-Do List]()
+1. CSS stylesheet cleanup
+2. Integrate Stripe API for credit card transactions
+3. Incorporate the database with actual artist data
+4. Final Bug Testing
+5. SQL improved security measures
+6. Incorporate image upload in all create/update functions
 
-![Burndown Chart]()
+![Trello To-Do List](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Commit%20V6/Screen%20Shot%202014-11-13%20at%205.30.42%20PM.png)
+
+![Burndown Chart](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Commit%20V6/studiocracyburndown11-13.JPG)
 
 
 ###v0.5 Sprint Update
