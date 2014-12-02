@@ -1,0 +1,644 @@
+                                *{
+	font-family: 		Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	
+	text-align: 		center;
+}
+
+body {
+	margin: 		auto;
+	width: 			1280px;
+	background:		#7E7E7E;
+	color:			Black;
+}
+
+table {
+	width:	100%;
+}
+
+
+h1,h2{
+	margin: 0px;
+}
+
+#top{	
+	/*position: 		fixed;*/
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		#7E7E7E;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+                 
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+}           
+
+#profile{	
+	border-bottom:		3px solid goldenrod; 
+	color:          	white;
+	margin-left:		30px;
+	padding-left:		50px;
+}
+
+#profile img{
+	width:			180px;
+	height:			180px;
+	margin:     		10px, 10px, 10px, 10px;
+}
+
+
+.pics{	
+	float:			left;
+	position:		relative;
+	text-align:		center;
+	display:		inline-block;
+	
+	
+}
+
+.pic img{
+	width:			400px;
+	height:			450px;
+	border:			10px solid gray;	
+	float:			left;
+	position:		relative;
+	display:		inline-block;
+}     
+
+#pic img{
+	width:				800x;
+	height:				400px;
+	margin:     			10px, 10px, 10px, 10px;
+	background-color:		black;
+	box-shadow:			5px 5px 3px 3px	rgba(128,128,128,.4);
+	border:				15px solid gray;
+	display: 			inline-block; 
+}     
+
+                      
+
+#header{
+	padding-top: 75px;
+}
+
+
+#artWork{
+	border:			15px ridge;
+	border-color:		gray;
+	width:			1280px;
+	color:			white;
+}
+
+#artist {
+	font-size:	25px;
+	font-weight: 	bold;
+}
+
+#artist tr td img {
+	display: 		block;
+    margin:			8px;
+	height:			350px;
+	width:			90%;
+	border:			8px solid white;
+	border-radius: 		8px;
+	float: 			left;
+}
+
+#email,#listing,#info1,#info2,#info3, #featArtist{
+	padding-top:	25px;
+	padding-bottom:	25px;	
+	border-bottom:	3px solid goldenrod;
+}
+
+#nav{
+	height: 350px;
+}
+
+#nav a img{
+	height:			350px;
+	width:			32.5%;
+	float:			left;
+	padding-left:	5px;
+	padding-right:	5px;
+}
+
+#email, #listing{
+	background:		#000000;
+	color:			white;
+	padding:		100px 0px 20px 0px;	
+}
+
+#email  p, #listing  p{
+	font-size:	30px;
+	margin-top:	0px;
+}
+
+#signin,#reset{
+	width:		100%;
+}
+
+
+
+#email a input[type=button],#listing a input[type=button]{
+	background:		gold;
+	color:			white;
+	width:			300px;
+	height:			46px;
+	font-weight:	bold;
+	font-size:		28px;
+	border:			3px solid gold;
+	margin-right:		500px;
+}
+
+#featArtist {
+	color: 		white;
+	padding-top:	10px;
+}
+
+
+#contacts {
+	border-bottom:		3px solid goldenrod; 
+    	text-align: 		center;
+}
+
+#bio {
+	border-bottom:			3px solid goldenrod; 
+	color:				#EA74BF;
+	width:				800px;
+    	height:				450px;
+    	left: 				580px;
+    	top: 				25px;
+    	text-align:			center;
+}
+
+#statement{
+	color:				white;
+	border-bottom:			3px solid goldenrod;
+	text-align:			center;
+
+}
+
+#reg{
+	width:	800px;
+	font-size:	115%;
+}
+
+#info1 table, #info2 table, #info3 table{
+	padding:		20px;
+	background-color: 	white;
+	color:			black;
+	width:			900px;
+	margin: 	auto;
+}
+
+#info1 table tr td p, #info3 table tr td p{
+	text-align:		left;
+	padding-left:	30px;
+	width:			500px; 
+	height:			auto;
+	font-size:		22px;
+}
+
+#info2 table tr td p{
+	text-align:		right;
+	padding-right:		30px;
+	width:			500px; 
+	height:			auto;
+	font-size:		22px;
+}
+
+#info1 table tr td h1, #info3 table tr td h1{
+	text-align:	left;
+	height:		auto;
+}
+
+#info2 table tr td h1{
+	text-align:	right;
+	height:		auto;
+}
+
+#info1 table tr td img, #info2 table tr td img, #info3 table tr td img{
+	max-width:	400px; 
+	max-height:	450px;
+}
+
+.proname{
+	color:			white;
+	margin-right:		200px;
+	border-right:		3px solid goldenrod;
+}
+
+.sh1 {
+	font-size:          	125%;
+	font-weight:       	 bold;
+	text-align:	    	center;
+	color:			white;
+}
+
+.sh2 {
+	font-size:        	  110%;
+	font-weight:      	  bold;
+	text-align:	  	  center;
+	color:			white;
+}
+
+.fh1 {
+	font-size:		120%;
+	font-weight:		bold;
+	text-decoration:	underline;
+        color:			black;
+}
+
+.fh11{
+	font-size:        	  110%;
+	font-weight:      	  bold;
+	text-align:		left;
+	text-decoration:	underline;
+	color:			  black;
+}
+
+.accEditForm{
+	background-color:	#FFFFE0;
+}
+
+
+#joinform{
+	width:				40%;
+	margin: 			auto;
+	border:				15px dotted gray;
+	margin-top:			5px;
+	padding-left:			5px;
+	background-color:		#FFFFE0;
+	box-shadow:			5px 5px 3px 3px	rgba(128,128,128,.4);
+	padding:			10px;
+}
+
+label {
+	width:				11em;
+	float:				left;
+	text-align:			left;
+        color:				black;     
+}
+
+hr {
+	height:			2px;
+	border-width:		0px;
+	color:			gray;
+	background-color:	gray;
+	width:			95%;
+}
+
+
+iframe {
+	border:		0px;
+	height:		475px;
+	width:		100%;
+	
+}
+
+strong{
+	font-size:	55px;
+	margin:		0px;
+}
+
+input{	
+	margin-right:	160px;
+ 	margin-bottom:	2%;
+}
+
+
+.labels{
+	float:				left;
+	text-align:			right;
+	clear:				left;
+	color:				white;
+}
+
+.name {
+	font-size:          		200%;
+	font-weight:        		bold;
+}
+
+.descriptions{
+	color:			white
+	position:		relative;
+	text-align:		center;
+	display:		inline-block;
+	width:			300px;
+	height:			230px;
+	border-collapse: separate;
+   	border-spacing: 10 50em;
+   	padding: 10px;  	
+}
+
+.description{
+	border:			3px solid goldenrod;
+	width:			200px;
+	height:			463px;
+	position:		relative;
+	display:		inline-block;
+}   
+
+.info2{	
+	 position:center center; top: 5px; right: 50px; text-align: right; 
+	padding-left: 50px;	
+}
+
+.arttitle, .biotitle{
+	font-size:			180%;
+	font-weight:			bold;
+}
+
+.contact{
+	font-style:			italic;
+	font-weight:			bold;
+}
+
+.biop{
+	width: 				650px;
+}
+
+.information{
+	color:			white
+	float:			right;
+	position:		relative;
+	text-align:		left;
+	display:		inline-block;
+	width:			600px;
+	height:			230px;
+	border-collapse: separate;
+   	border-spacing: 10 50em;
+   	padding: 10px;	
+}
+
+.informationss{
+	border:			3px solid goldenrod;
+	width:			200px;
+	height:			463px;
+	float:			right;
+	position:		relative;
+	display:		inline-block;
+}
+
+.biop{
+	width: 				650px;
+}
+   
+.des{
+	text-decoration: 	underline;
+	font-size:		25px;
+	font-weight:		bold;
+}
+
+.titless{
+	
+	font-size:		15px;
+	
+}
+
+.art{
+	
+	font-size:		15px;;
+}
+
+.aName{
+	
+	font-size:		15px;
+	color:white;
+}
+
+.series{
+	
+	font-size:		15px;
+	
+}
+
+.year{
+	
+	font-size:		15px;
+	
+}
+
+.medium{
+	
+	font-size:		15px;
+	
+}
+
+.dimensions{
+	
+	font-size:		15px;
+	
+}
+
+.price{
+	
+	font-size:		15px;
+	
+}
+
+.stock{
+	
+	font-size:		15px;
+	
+}
+
+.button{
+	color: black;
+	background:	#E0E0E0;
+	width:		80px;
+	margin-left:	10%;
+	position:	relative;
+	display:		inline-block;
+	
+}               
+   
+.submit{
+	width:				300px;
+	height:				35px;
+	margin-top:			10px;
+	margin-right:			43%;
+}   
+   
+.submits { text-align: 	center;}  
+
+.submits input{
+	font-size: 			95%;
+	background-color:	        #605B5B;
+	color:				white;
+	font-style:			italic;
+	font-weight:		        bold;
+	box-shadow:			5px 5px 0px 0px rgba(203,190,190,.4);
+}
+
+.update{ text-align: 	center;}
+
+.update input{
+	font-size: 			95%;
+	background-color:	        #605B5B;
+	color:				white;
+	font-style:			italic;
+	font-weight:		        bold;
+	box-shadow:			5px 5px 0px 0px rgba(203,190,190,.4);
+}
+
+.arttitle, .biotitle{
+	font-size:			180%;
+	font-weight:			bold;
+}
+
+.usertypelabel
+{
+	width: 5em; 
+	margin: auto;  
+	text-align: auto; 
+}
+.usertypebox
+{
+	height: 	30px;
+	width:	30px;
+	font-size: 10px;
+	/*height: 	30px;
+	width:		250px;
+	font-size:	18px;
+	*/ 
+}
+     
+.btitle{
+	font-size:		28px;
+	font-weight:		bold;
+	text-align:		center;
+	text-decoration: 	underline;
+   	padding-bottom:		50px;
+}              
+
+.button input{
+	font-size: 		95%;
+	background-color:	#494747;
+	color:			#FCFBFB;
+	font-style:		italic;
+	font-weight:		bold;
+
+}           
+          
+.inline.fix,.iframe.fix{
+	color:				blue; 
+	text-decoration:	underline;
+}                  
+             
+             
+form p input, form table tr td input{
+	height: 	30px;
+	width:		250px;
+	font-size:	18px;
+}
+
+form input[type=search]{
+	height:		30px;
+	font-size:	18px;
+}
+
+form button[type=submit]{
+	border:		1px solid #444444;
+	background:	#444444;
+	font-size:	18px;
+	color:		white;
+	height: 	30px;
+	width:		250px;
+}               
+
+table.pics	{border:	2px solid gray;}
+table.information{border:	3px double gray;}
+table.description{border:	3px double gray;}
+
+a:link {
+	color: 	white; 
+	text-decoration:none;
+}
+a:hover {
+	color: 	white; 
+	text-decoration:underline;
+}
+a:visited {
+	color: white;
+}
+
+footer {
+	background: 	black;
+	color:		white;
+	text-align:	center;
+}               
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----- Tabs -----*/
+.tabs {
+    width:50%;
+    display:inline-block;
+}
+ 
+ /*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display:block;
+	clear:both;
+	content:'';
+}
+ 
+.tab-links li {
+	margin:0px 5px;
+	float:left;
+	list-style:none;
+}
+ 
+.tab-links a {
+	padding:9px 15px;
+	display:inline-block;
+	border-radius:3px 3px 0px 0px;
+	background:#7FB5DA;
+	font-size:16px;
+	font-weight:600;
+	color:#4c4c4c;
+	transition:all linear 0.15s;
+}
+ 
+.tab-links a:hover {
+	background:#a7cce5;
+	text-decoration:none;
+}
+ 
+li.active a, li.active a:hover {
+	background:#fff;
+	color:#4c4c4c;
+}
+ 
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding:15px;
+	border-radius:3px;
+	box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+	background:#fff;
+}
+ 
+.tab {
+	display:none;
+}
+ 
+.tab.active {
+	display:block;
+}
+                            
+                            

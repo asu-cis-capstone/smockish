@@ -1,0 +1,71 @@
+                                                                *{
+	font-family: 		Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	/* text-align:		center;*/
+}
+
+body {
+	margin: 		auto;
+	background:		black;
+	margin-top:		20px;
+}
+
+.pic img{
+	width:			400px;
+	height:			450px;
+	border:			10px solid gray;	
+	float:			left;
+	position:		relative;
+	display:		inline-block;
+}
+
+.information{
+	border:			3px solid goldenrod;
+	width:			200px;
+	height:			463px;
+	float:			right;
+	position:		relative;
+	display:		inline-block;
+}
+                         
+.description{
+	border:			3px solid goldenrod;
+	width:			200px;
+	height:			463px;
+	position:		relative;
+	display:		inline-block;
+}   
+
+.title{
+	font-size:		28px;
+	font-weight:		bold;
+	text-align:		center;
+	text-decoration: 	underline;
+   	padding-bottom:		50px;
+}              
+
+
+
+
+
+.button input{
+	font-size: 		95%;
+	background-color:	#494747;
+	color:			#FCFBFB;
+	font-style:		italic;
+	font-weight:		bold;
+
+}      
+
+
+a:link {
+	color: 	white; 
+	text-decoration:none;
+}
+a:hover {
+	color: 	white; 
+	text-decoration:underline;
+}
+a:visited {
+	color: white;
+}
+                            

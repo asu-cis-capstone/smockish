@@ -1,0 +1,110 @@
+                                *{
+	font-family: 		Sitka Heading,Sitka Small,Georgia,Times New Roman;
+	background:		#7E7E7E;
+}          
+
+#top{	
+	margin: 		0px;
+	width:			1280px;
+	color:			white;
+	background:		#7E7E7E;
+	font-size:		30px;
+	border-bottom:		3px solid goldenrod;
+}
+
+body {
+	width:			1100px;
+}
+
+#artWork{
+	width:			1280px;
+	color:			white;
+}
+
+.masterTable {
+	border-bottom:		3px solid goldenrod;
+}
+
+.innerTable {
+	
+	padding-left:		300px;
+}
+
+.pics{	
+	float:			left;
+	position:		relative;
+	display:		inline-block;
+}
+
+.pic img{
+	width:			250px;
+	height:			250px;
+}
+.descriptions{
+	color:			white
+	position:		relative;
+	text-align:		center;
+	display:		inline-block;
+	width:			260px;
+	height:			230px;
+	padding: 		10px;
+   	
+   	
+}
+
+
+.information{
+	color:			white
+	float:			right;
+	position:		relative;
+	text-align:		left;
+	display:		inline-block;
+	width:			600px;
+	padding: 		10px;
+   	
+}
+
+.art{
+	
+	font-size:		15px;;
+}
+
+
+.title{
+	font-size: 		60px;
+	margin-left: 		60px;
+} 
+
+.description{
+	width:			200px;
+	height:			463px;
+	position:		relative;
+	display:		inline-block;
+}   
+
+
+.button{
+	color: 			black;
+	background:		#E0E0E0;
+	width:			80px;
+	margin-left:		70%;
+	position:		relative;
+	display:		inline-block;
+	
+}
+                            
+                            
+  
+a:link {
+	color: 	white; 
+	text-decoration:none;
+}
+a:hover {
+	color: 	white; 
+	text-decoration:underline;
+}
+a:visited {
+	color: white;
+}                          
+                            
+                            
