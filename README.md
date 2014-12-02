@@ -1,6 +1,27 @@
 Smockish 
 ===
 
+###v1.0 Project Completion!!!
+
+12/2/2014 - Group Presentation
+
+![WeAreDone](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/IMG_1641.JPG)
+
+**Completed:**
+
+1. Integrated CRUD function pages for profiles and listing
+2. Design/Implement a Home page that displays artwork listings
+3. Continued manual testing processes and documentation for all CRUD functions for profile and listing
+  * Listed below are two links to word docs of the current testing process information
+  * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Test%20Cases%20v3.docx?raw=true)
+  * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Studiocracy%20Testing%20v3.docx?raw=true)
+4. Front end design of profile and listing pages continued
+5. All current code is uploaded into the Commit V6 Docs/studiocracy folder location
+
+![Trello](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/Screen%20Shot%202014-12-02%20at%203.11.56%20PM.png)
+
+![Burndown Chart]()
+
 ###v0.6 Sprint Update
 
 **Completed:**
