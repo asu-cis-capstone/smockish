@@ -10,20 +10,21 @@ Smockish
 **Sprint Tasks Completed:**
 
 1. Implemented Stripe test environment for credit card transactions - created purchase confirmation page/email
-2. Clean/delete all placeholder data in the Database and Loaded gathered ASU student and art listing info
+2. Clean/delete all placeholder data in the database and loaded gathered ASU student and art listing info
 3. Full manual/user testing and validation of all functionality on the site - FINAL RUNTHROUGH DEMO PREP
-  * Listed below are two links to word docs of the current testing process information
+  * Listed below are links to word docs of the current testing process information
   * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Final%20Commit/Test%20Cases%20v4.docx?raw=true)
   * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Final%20Commit/Studiocracy%20Testing%20v4.docx?raw=true)
 4. Consolidate CSS files and finish styling the site
 5. All Final Code is uploaded into the Final Commit folder location
-6. Create Final Project Report/Documentation
+6. Created Final Project Report/Documentation
 7. Implemented account maintenance page - delete account enabled
 8. Fixed image upload issues
+9. Added Edit listing capability
 
 ![Trello](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/Screen%20Shot%202014-12-02%20at%203.11.56%20PM.png)
 
-![Burndown Chart]()
+![Burndown Chart](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/finalburndown.JPG)
 
 ###v0.6 Sprint Update
 
