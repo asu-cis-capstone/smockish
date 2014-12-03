@@ -7,16 +7,19 @@ Smockish
 
 ![WeAreDone](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/IMG_1641.JPG)
 
-**Completed:**
+**Sprint Tasks Completed:**
 
-1. Integrated CRUD function pages for profiles and listing
-2. Design/Implement a Home page that displays artwork listings
-3. Continued manual testing processes and documentation for all CRUD functions for profile and listing
+1. Implemented Stripe test environment for credit card transactions - created purchase confirmation page/email
+2. Clean/delete all placeholder data in the Database and Loaded gathered ASU student and art listing info
+3. Full manual/user testing and validation of all functionality on the site - FINAL RUNTHROUGH DEMO PREP
   * Listed below are two links to word docs of the current testing process information
-  * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Test%20Cases%20v3.docx?raw=true)
-  * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Commit%20V6/Studiocracy%20Testing%20v3.docx?raw=true)
-4. Front end design of profile and listing pages continued
-5. All current code is uploaded into the Commit V6 Docs/studiocracy folder location
+  * [Test Case Documentation](https://github.com/asu-cis-capstone/smockish/blob/master/Final%20Commit/Test%20Cases%20v4.docx?raw=true)
+  * [Testing Process](https://github.com/asu-cis-capstone/smockish/blob/master/Final%20Commit/Studiocracy%20Testing%20v4.docx?raw=true)
+4. Consolidate CSS files and finish styling the site
+5. All Final Code is uploaded into the Final Commit folder location
+6. Create Final Project Report/Documentation
+7. Implemented account maintenance page - delete account enabled
+8. Fixed image upload issues
 
 ![Trello](https://raw.githubusercontent.com/asu-cis-capstone/smockish/master/Final%20Commit/Screen%20Shot%202014-12-02%20at%203.11.56%20PM.png)
 
