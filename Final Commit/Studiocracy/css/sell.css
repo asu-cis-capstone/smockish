@@ -1,13 +1,13 @@
                                 *{
 	font-family: 		Sitka Heading,Sitka Small,Georgia,Times New Roman;
-	background:		#7E7E7E;
+	background:		black;
 }          
 
 #top{	
 	margin: 		0px;
 	width:			1280px;
 	color:			white;
-	background:		#7E7E7E;
+	background:		black;
 	font-size:		30px;
 	border-bottom:		3px solid goldenrod;
 }
